@@ -9,4 +9,11 @@ i was a beginner so please don't judge my programming standards.
 
 i published it to give any junior programmer a dose of encouragement, self-trust & programming help to write a game.
 
+i used Dev-C++ IDE for Windows
+
+You can download 
+C IDE for Windows from here: http://www.bloodshed.net/devcpp.html
+C IDE for Linux from here: https://www.geany.org/Download/ThirdPartyPackages
+C IDE for MacOSX from here: https://developer.apple.com/download/more/
+
 Enjoy.
