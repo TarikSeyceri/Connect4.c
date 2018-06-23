@@ -1,4 +1,6 @@
 // This Game Programmed By Tarik Seyceri - 2010 //
+// email: tarik@seyceri.info
+
 #include <stdio.h>
 void Drawing(int *a,int *b,int *c,int *d,int *e,int *f);
 int  EasyPC(int *y);
