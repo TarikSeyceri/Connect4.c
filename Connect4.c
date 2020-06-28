@@ -7,6 +7,7 @@ int  EasyPC(int *y);
 int  HardPC(int *a,int *b,int *c,int *d,int *e,int *f,int *y);
 int  UserPlay(int *x);
 char UserName(char *fname,char *lname);
+char NumberToSymbol(int num);
 main()
 {
       //System//
@@ -232,22 +233,22 @@ void Drawing(int *a,int *b,int *c,int *d,int *e,int *f)
       system("cls");
       printf("                   _____ _____ _____ _____ _____ _____ _____  \n");
       printf("                  |     |     |     |     |     |     |     | \n");
-      printf("                  |  %c  |  %c  |  %c  |  %c  |  %c  |  %c  |  %c  | \n",f[1],f[2],f[3],f[4],f[5],f[6],f[7]);
+      printf("                  |  %c  |  %c  |  %c  |  %c  |  %c  |  %c  |  %c  | \n",NumberToSymbol(f[1]),NumberToSymbol(f[2]),NumberToSymbol(f[3]),NumberToSymbol(f[4]),NumberToSymbol(f[5]),NumberToSymbol(f[6]),NumberToSymbol(f[7]));
       printf("                  |_____|_____|_____|_____|_____|_____|_____| \n");
       printf("                  |     |     |     |     |     |     |     | \n");
-      printf("                  |  %c  |  %c  |  %c  |  %c  |  %c  |  %c  |  %c  | \n",e[1],e[2],e[3],e[4],e[5],e[6],e[7]);
+      printf("                  |  %c  |  %c  |  %c  |  %c  |  %c  |  %c  |  %c  | \n",NumberToSymbol(e[1]),NumberToSymbol(e[2]),NumberToSymbol(e[3]),NumberToSymbol(e[4]),NumberToSymbol(e[5]),NumberToSymbol(e[6]),NumberToSymbol(e[7]));
       printf("                  |_____|_____|_____|_____|_____|_____|_____| \n");
       printf("                  |     |     |     |     |     |     |     | \n");
-      printf("                  |  %c  |  %c  |  %c  |  %c  |  %c  |  %c  |  %c  | \n",d[1],d[2],d[3],d[4],d[5],d[6],d[7]);
+      printf("                  |  %c  |  %c  |  %c  |  %c  |  %c  |  %c  |  %c  | \n",NumberToSymbol(d[1]),NumberToSymbol(d[2]),NumberToSymbol(d[3]),NumberToSymbol(d[4]),NumberToSymbol(d[5]),NumberToSymbol(d[6]),NumberToSymbol(d[7]));
       printf("                  |_____|_____|_____|_____|_____|_____|_____| \n");
       printf("                  |     |     |     |     |     |     |     | \n");
-      printf("                  |  %c  |  %c  |  %c  |  %c  |  %c  |  %c  |  %c  | \n",c[1],c[2],c[3],c[4],c[5],c[6],c[7]);
+      printf("                  |  %c  |  %c  |  %c  |  %c  |  %c  |  %c  |  %c  | \n",NumberToSymbol(c[1]),NumberToSymbol(c[2]),NumberToSymbol(c[3]),NumberToSymbol(c[4]),NumberToSymbol(c[5]),NumberToSymbol(c[6]),NumberToSymbol(c[7]));
       printf("                  |_____|_____|_____|_____|_____|_____|_____| \n");
       printf("                  |     |     |     |     |     |     |     | \n");
-      printf("                  |  %c  |  %c  |  %c  |  %c  |  %c  |  %c  |  %c  | \n",b[1],b[2],b[3],b[4],b[5],b[6],b[7]);
+      printf("                  |  %c  |  %c  |  %c  |  %c  |  %c  |  %c  |  %c  | \n",NumberToSymbol(b[1]),NumberToSymbol(b[2]),NumberToSymbol(b[3]),NumberToSymbol(b[4]),NumberToSymbol(b[5]),NumberToSymbol(b[6]),NumberToSymbol(b[7]));
       printf("                  |_____|_____|_____|_____|_____|_____|_____| \n");
       printf("                  |     |     |     |     |     |     |     | \n");
-      printf("                  |  %c  |  %c  |  %c  |  %c  |  %c  |  %c  |  %c  | \n",a[1],a[2],a[3],a[4],a[5],a[6],a[7]);
+      printf("                  |  %c  |  %c  |  %c  |  %c  |  %c  |  %c  |  %c  | \n",NumberToSymbol(a[1]),NumberToSymbol(a[2]),NumberToSymbol(a[3]),NumberToSymbol(a[4]),NumberToSymbol(a[5]),NumberToSymbol(a[6]),NumberToSymbol(a[7]));
       printf("                  |_____|_____|_____|_____|_____|_____|_____| \n");
       printf("                     1     2     3     4     5     6     7    \n\n");
 }    
@@ -375,5 +376,12 @@ char UserName(char *fname,char *lname)
       scanf("%s",&*lname);
       *fname=toupper(*fname);
       *lname=toupper(*lname);
+}
+char NumberToSymbol(int num){
+     if(num == 1)return 'X';
+     else if(num == 2)return 'O';
+     else if(num == 3)return 'P';
+     else if(num == 4)return 'U';
+     else return ' ';
 }
 //END PROJECT
