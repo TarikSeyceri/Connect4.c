@@ -3,6 +3,8 @@
 
 This version is written with C Programming Language (MS Console) in 2010, it was my first project i wrote in my programming life :)
 
+![alt Preview](https://github.com/TarikSeyceri/Connect4.c/blob/master/Connect4.c.v1.0_preview.png?raw=true)
+
 it was for my first semester project in university
 
 i was a beginner so please don't judge my programming standards.
