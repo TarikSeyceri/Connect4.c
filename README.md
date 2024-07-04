@@ -1,5 +1,5 @@
 # Connect4.c
-Connect4 v1.0, This project is a game developed in three versions, C, C++ &amp; Java SE, older to newer respect
+Connect4 v1.0, This project is a game developed in four versions, C, C++, Java SE & Node.js, older to newer respect
 
 This version is written with C Programming Language (MS Console) in 2010, it was my first project i wrote in my programming life :)
 
